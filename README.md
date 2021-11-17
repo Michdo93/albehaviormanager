@@ -113,6 +113,19 @@ echo 'export PYTHONPATH=/opt/aldebaran/lib/python2.7/site-packages' >> /home/nao
 echo 'export PYTHONPATH=/opt/aldebaran/lib/python2.7/site-packages' >> /home/nao/.bash_profile
 ```
 
+You can proof that nao has the right to read the bash files:
+
+```
+ls -la /home/nao
+total 3532
+drwxr-xr-x 12 nao  nao     4096 Nov 17 14:53 .
+drwxr-xr-x  3 root root    4096 Aug 28  2015 ..
+-rw-------  1 nao  nao     2813 Sep 17  2009 .bash_history
+-rw-r--r--  1 nao  nao      127 Nov 17 14:53 .bash_logout
+-rw-r--r--  1 nao  nao      254 Nov 17 14:54 .bash_profile
+-rw-r--r--  1 nao  nao      626 Nov 17 14:54 .bashrc
+```
+
 #### Execution:
 
 Run without sshpass...
