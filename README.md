@@ -15,7 +15,7 @@ Clone the Repository:
 
 ```
 cd ~
-https://github.com/Michdo93/albehaviormanager.git
+wget https://raw.githubusercontent.com/Michdo93/albehaviormanager/main/albehaviormanger.py
 ```
 
 Make it runnable with `chmod +x albehaviormanger`.
@@ -124,6 +124,17 @@ drwxr-xr-x  3 root root    4096 Aug 28  2015 ..
 -rw-r--r--  1 nao  nao      127 Nov 17 14:53 .bash_logout
 -rw-r--r--  1 nao  nao      254 Nov 17 14:54 .bash_profile
 -rw-r--r--  1 nao  nao      626 Nov 17 14:54 .bashrc
+```
+
+Or simple move the bash files from this repository to `/home/nao`:
+
+```
+wget https://raw.githubusercontent.com/Michdo93/albehaviormanager/main/.bash_logout.bak
+wget https://raw.githubusercontent.com/Michdo93/albehaviormanager/main/.bash_profile.bak
+wget https://raw.githubusercontent.com/Michdo93/albehaviormanager/main/.bashrc.bak
+mv .bash_logout.bak .bash_logout
+mv .bash_profile.bak .bash_profile
+mv .bashrc.bak .bashrc
 ```
 
 #### Execution:
